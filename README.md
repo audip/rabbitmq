@@ -13,7 +13,8 @@
 1. Basic example: run rabbitmq-server, then create send.py and receive.py to use RabbitMQ as a basic queue.
 2. Work queue: run server, then set up worker.py to listen to messages and publish tasks through new_task.py.
 3. Publish/subscribe: run server, then emit_log.py to publish messages and receive_logs.py to print them out.
-
+4. Routing: run server, then emit_logs_direct.py to publish error logs and one consumer prints it to screen, another consumer save error messages to disk.
+  
 ## License
 
     Copyright 2016 Aditya Purandare
