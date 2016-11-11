@@ -1,8 +1,9 @@
 ## RabbitMQ self-learning through examples
 
-### Installation
+### Installation (Options)
 
 - Download and install rabbitmq `brew install rabbitmq`
+- Docker `docker run -d --hostname localhost -p 4369:4369 -p 5672:5672 -p 15672:15672 -p 25672:25672 rabbitmq:3-management`
 
 ### Running the system
 
